@@ -1,0 +1,11 @@
+id_empleado,nombre,dni,puesto,id_sucursal
+1,"Carlos López",DPI001,Vendedor,1
+2,"Ana Martínez",DPI002,Vendedor,1
+3,"Luis Gómez",DPI003,Cajero,2
+4,"María Pérez",DPI004,Vendedor,2
+5,"José Ramírez",DPI005,Supervisor,3
+6,"Laura Fernández",DPI006,Vendedor,3
+7,"Pedro Castillo",DPI007,Cajero,1
+8,"Sofía Morales",DPI008,Vendedor,2
+9,"Miguel Herrera",DPI009,Vendedor,3
+10,"Daniel Cruz",DPI010,Administrador,1

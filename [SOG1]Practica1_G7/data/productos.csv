@@ -1,0 +1,11 @@
+id_producto,nombre,descripcion,precio_actual,sku
+1,"Laptop HP 15","Laptop 15 pulgadas",5200.00,SKU-001
+2,"Mouse Logitech","Mouse inalámbrico",180.00,SKU-002
+3,"Teclado Mecánico","Teclado RGB",450.00,SKU-003
+4,"Monitor Samsung 24","Monitor Full HD",1450.00,SKU-004
+5,"Disco SSD 500GB","Almacenamiento SSD",620.00,SKU-005
+6,"Memoria RAM 16GB","DDR4 16GB",580.00,SKU-006
+7,"Impresora Epson","Impresora multifuncional",1350.00,SKU-007
+8,"Auriculares Sony","Audífonos Bluetooth",390.00,SKU-008
+9,"Router TP-Link","Router WiFi AC",420.00,SKU-009
+10,"Tablet Lenovo","Tablet 10 pulgadas",1600.00,SKU-010
