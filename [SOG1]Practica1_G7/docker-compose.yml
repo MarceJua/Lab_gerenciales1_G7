@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: electrovibe_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: electrovibe_db
+    ports:
+      - "3307:3306"
+    volumes:
+      # Mapea los CSV al directorio seguro de MySQL
+      - ./data:/var/lib/mysql-files/
+      # ejecuta automáticamente el schema al levantar el contenedor por primera vez
+      - ./scripts/01_schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
